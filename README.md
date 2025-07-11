@@ -19,7 +19,7 @@ The ALU supports the following 16 operations, selected by the `sel` input:
 | `4'h4`      | `SHIFT_R`       | Logical Right Shift of A by 1 bit            | `A >> 1`                                                   |
 | `4'h5`      | `SHIFT_L`       | Logical Left Shift of A by 1 bit             | `A << 1`                                                   |
 | `4'h6`      | `AND`           | Bitwise AND                                  | `A & B`                                                    |
-| `4'h7`      | `OR`            | Bitwise OR                                   | `A` | `B`                                                    |
+| `4'h7`      | `OR`            | Bitwise OR                                   | `A  | B`                                                    |
 | `4'h8`      | `XOR`           | Bitwise XOR                                  | `A ^ B`                                                    |
 | `4'h9`      | `INV`           | Bitwise Inversion of A                       | `~A`                                                       |
 | `4'hA`      | `XNOR`          | Bitwise XNOR                                 | `~(A ^ B)`                                                 |
